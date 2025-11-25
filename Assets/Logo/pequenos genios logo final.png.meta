@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 735a9bb12d9c3ef4194dda802e44e759
+guid: 6fbe425bca81ed34dbef9d8455035b85
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2623761127183196756
-    second: BotaoPlay_0
+      213: 6683999131054910039
+    second: pequenos genios logo final_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BotaoPlay_0
+      name: pequenos genios logo final_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 410
-        width: 770
-        height: 339
+        x: 148
+        y: 42
+        width: 1532
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 452ab3908d8796420800000000000000
-      internalID: 2623761127183196756
+      spriteID: 75a2c8ddbc552cc50800000000000000
+      internalID: 6683999131054910039
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BotaoPlay_0: 2623761127183196756
+      pequenos genios logo final_0: 6683999131054910039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
