@@ -22,7 +22,8 @@ public class ColorQuizRobusto : MonoBehaviour
         ("Verde", Color.green),
         ("Amarelo", Color.yellow),
         ("Preto", Color.black),
-        ("Branco", Color.white)
+        ("Branco", Color.white),
+        ("Laranja",new Color(1f, 0.5f, 0f)),
     };
 
     void Awake()
@@ -43,9 +44,9 @@ public class ColorQuizRobusto : MonoBehaviour
         if (texto2 == null) Debug.LogWarning("texto2 não encontrado no botão 2 (procure TMP_Text como filho).");
 
         // garantir cor legível dos textos (preto)
-        if (texto1 != null) texto1.color = Color.black;
-        if (texto2 != null) texto2.color = Color.black;
-        if (feedbackText != null) feedbackText.color = Color.black;
+        if (texto1 != null) texto1.color = new Color(1f, 0.5f, 0f);
+        if (texto2 != null) texto2.color = new Color(1f, 0.5f, 0f);
+        if (feedbackText != null) feedbackText.color = Color.white;
     }
 
     void Start()
