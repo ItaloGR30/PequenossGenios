@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9dcbcc25148d7f343b999b8b3819ff82
+guid: e58cb8a849a35ca40a1d7cdf69eda9f6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -594678361892611710
-    second: ModuloAzul_0
+      213: -6507627341511224633
+    second: ModuloB_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ModuloAzul_0
+      name: ModuloB_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 185
-        width: 768
-        height: 794
+        x: 0
+        y: 0
+        width: 770
+        height: 796
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28997cb3e274fb7f0800000000000000
-      internalID: -594678361892611710
+      spriteID: 7c29a9a696340b5a0800000000000000
+      internalID: -6507627341511224633
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ModuloAzul_0: -594678361892611710
+      ModuloB_0: -6507627341511224633
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

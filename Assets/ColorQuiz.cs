@@ -25,7 +25,6 @@ public class ColorQuizRobusto : MonoBehaviour
         ("Branco", Color.white),
         ("Laranja",new Color(1f, 0.5f, 0f)),
         ("Roxo", new Color(0.5f, 0f, 1f)),
-        ("Ciano",Color.cyan),
         ("Marrom", new Color(0.6f, 0.3f, 0f)),
         ("Cinza", Color.gray)
 
