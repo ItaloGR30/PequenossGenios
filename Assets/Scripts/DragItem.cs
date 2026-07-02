@@ -32,5 +32,12 @@ public class DragItem : MonoBehaviour,
     }
 
     canvasGroup.blocksRaycasts = true;
+
 }
+
+public void VoltarAoInicio()
+{
+    transform.position = startPosition;
+}
+
 }
