@@ -67,7 +67,7 @@ public class ColorQuiz : MonoBehaviour
             moduloFinalizado = true;
 
             feedbackText.gameObject.SetActive(true);
-            feedbackText.text = "MÓDULO FINALIZADO!";
+            feedbackText.text = "PARABÉNS, MÓDULO FINALIZADO!";
 
             corImage.gameObject.SetActive(false);
             botao1.gameObject.SetActive(false);

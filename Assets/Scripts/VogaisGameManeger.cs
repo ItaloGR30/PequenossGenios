@@ -52,7 +52,7 @@ public class VogaisGameManager : MonoBehaviour
         {
             moduloFinalizado = true;
 
-            textoFeedback.text = "🎉 MÓDULO FINALIZADO!";
+            textoFeedback.text = "PARABÉNS, MÓDULO FINALIZADO!";
 
             imagemObjeto.gameObject.SetActive(false);
 
@@ -105,7 +105,7 @@ public class VogaisGameManager : MonoBehaviour
 
         if (lacunasPreenchidas >= totalLacunas)
         {
-            textoFeedback.text = "✔ Correto!";
+            textoFeedback.text = "Correto!";
 
             StartCoroutine(ProximaPalavra());
         }
@@ -113,7 +113,7 @@ public class VogaisGameManager : MonoBehaviour
 
     public void LetraErrada()
     {
-        textoFeedback.text = "✖ Incorreto!";
+        textoFeedback.text = "Incorreto!";
 
         if (somErro != null)
             audioSource.PlayOneShot(somErro);

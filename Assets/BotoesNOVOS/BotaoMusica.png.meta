@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f87aada1199bab2429275183fc4c5d36
+guid: 46300e95f7ac675449143def0be3de5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1020298138479031198
-    second: BotaoRedondoBase_0
+      213: -4325448453843877588
+    second: BotaoMusica_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -84,7 +84,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Standalone
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +110,33 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BotaoRedondoBase_0
+      name: BotaoMusica_0
       rect:
         serializedVersion: 2
-        x: 94
-        y: 246
-        width: 609
-        height: 587
+        x: 12
+        y: 212
+        width: 774
+        height: 774
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e93f80d40c3d82e00800000000000000
-      internalID: 1020298138479031198
+      spriteID: c218f566c8be8f3c0800000000000000
+      internalID: -4325448453843877588
       vertices: []
       indices: 
       edges: []
@@ -161,7 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BotaoRedondoBase_0: 1020298138479031198
+      BotaoMusica_0: -4325448453843877588
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
