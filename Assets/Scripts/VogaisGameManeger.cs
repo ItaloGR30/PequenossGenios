@@ -14,6 +14,13 @@ public class VogaisGameManager : MonoBehaviour
     public TextMeshProUGUI textoPalavra;
     public TextMeshProUGUI textoFeedback;
 
+    public PalavraBuilder palavraBuilder;
+
+    public Transform palavraContainer;
+
+    public GameObject letterFixedPrefab;
+    public GameObject letterSlotPrefab;
+
     [Header("Config")]
     public float tempoParaProximo = 1.2f;
     public bool usarAudioAoCompletar = true;
@@ -88,6 +95,7 @@ public class VogaisGameManager : MonoBehaviour
         WordData item = database.palavras[indice];
 
         palavraCompleta = item.palavraCompleta.ToUpper().Trim();
+        palavraBuilder.MontarPalavra(palavraCompleta, this);
 
         if (imagemObjeto != null)
             imagemObjeto.sprite = item.imagem;
@@ -176,4 +184,25 @@ public class VogaisGameManager : MonoBehaviour
 
         CarregarNovoObjeto();
     }
+
+        private int totalLacunas;
+        private int lacunasPreenchidas;
+
+        public void LetraCorreta()
+        {
+            lacunasPreenchidas++;
+
+            if (lacunasPreenchidas >= totalLacunas)
+            {
+                StartCoroutine(EsperarEAvancar());
+            }
+        }
+
+                void LimparPalavra()
+        {
+            foreach (Transform filho in palavraContainer)
+            {
+                Destroy(filho.gameObject);
+            }
+        }
 }

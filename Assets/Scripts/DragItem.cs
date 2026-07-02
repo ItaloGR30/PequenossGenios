@@ -6,6 +6,7 @@ public class DragItem : MonoBehaviour,
 {
     private Vector3 startPosition;
     private CanvasGroup canvasGroup;
+    public bool foiColocada = false;
 
     void Start()
     {
@@ -24,8 +25,12 @@ public class DragItem : MonoBehaviour,
     }
 
     public void OnEndDrag(PointerEventData eventData)
+{
+    if (!foiColocada)
     {
         transform.position = startPosition;
-        canvasGroup.blocksRaycasts = true;
     }
+
+    canvasGroup.blocksRaycasts = true;
+}
 }
