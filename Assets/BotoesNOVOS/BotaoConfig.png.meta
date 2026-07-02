@@ -155,10 +155,10 @@ TextureImporter:
       name: BotaoConfig_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 212
-        width: 774
-        height: 774
+        x: 74
+        y: 269
+        width: 673
+        height: 673
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
