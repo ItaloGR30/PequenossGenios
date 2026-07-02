@@ -54,8 +54,8 @@ public class LetterSlot : MonoBehaviour, IDropHandler
             letterText.text = letraCorreta;
             Debug.Log("Mostrando letra: " + letraCorreta);
 
-            item.foiColocada = true;
-            item.gameObject.SetActive(false);
+            item.VoltarAoInicio();
+            //item.gameObject.SetActive(false);
 
             gameManager.LetraCorreta();
         }
